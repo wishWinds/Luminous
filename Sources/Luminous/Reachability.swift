@@ -298,6 +298,6 @@ fileprivate extension Reachability {
 }
 
 
-extension Reachability {
-    static let shared = Reachability(hostname: "apple.com")
+public extension Reachability {
+    public static let shared = Reachability(hostname: "apple.com")
 }
